@@ -16,6 +16,7 @@ module.exports = {
     "no-func-assign": "off",
     "no-unused-vars": "off",
     "no-empty": "off",
+    "no-unsafe-finally": "off",
   },
   plugins: ['jest'],
   settings: {

@@ -1,9 +1,9 @@
-export function orderByProps(obj, [...mass]) {
+export default function orderByProps(obj, [first, second]) {
   const data = [];
   const keys = Object.keys(obj);
   
   for (const key of keys) {
-    if (key === mass || key === mass) {
+    if (key === first || key === second) {
       data.push({ key, value: obj[key] });
     }
   }
